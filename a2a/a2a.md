@@ -10,4 +10,4 @@ As agents become more specialized, tasks like planning an international trip req
 
     - Poor Support for Agentic Workflows: Traditional request-response APIs are ill-suited for the long-running, asynchronous, and multi-turn conversations that are common in agent interactions.
 
-[a2a-actors.png]()
+[](assets/a2a-actors.png)
