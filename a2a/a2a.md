@@ -2,8 +2,12 @@
 
 ### Why A2A?
 
-- Lack of Dynamic Discovery: A client agent must have the network address and API specifications of a remote agent hardcoded. It cannot dynamically discover new agents or find alternatives if a primary agent is unavailable.
+As agents become more specialized, tasks like planning an international trip require coordinating multiple agents (e.g., for flights, hotels, tours). Without a common protocol, this creates significant engineering hurdles for several key reasons:
 
-- Brittle, Custom Integrations: Each connection requires custom code to translate between the two agents. This creates a "spaghetti architecture" where every new agent added to the system may require N-1 new integrations, a model that is neither scalable nor maintainable.
+    - Lack of Dynamic Discovery: A client agent cannot dynamically find the best service for a job or discover alternatives if a primary agent fails, as connections are often hardcoded.
 
-- Inability to Handle Stateful, Long-Running Tasks: Traditional request-response APIs are ill-suited for the complex, long-running, and often asynchronous tasks that agents perform. There is no standard way to track the progress of a task, handle multi-turn conversations, or receive updates.
+    - Brittle, Custom Integrations: Each connection requires custom code, leading to a complex architecture that is difficult to scale and maintain.
+
+    - Poor Support for Agentic Workflows: Traditional request-response APIs are ill-suited for the long-running, asynchronous, and multi-turn conversations that are common in agent interactions.
+
+[a2a-actors.png]()
