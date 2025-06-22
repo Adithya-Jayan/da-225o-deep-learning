@@ -1,4 +1,4 @@
-## Google Agenet2Agent (A2A Protocol)
+## Google Agent2Agent (A2A Protocol)
 
 ### Why A2A?
 
