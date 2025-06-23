@@ -105,3 +105,6 @@ This will:
 
 You should see log output from both the agent (if any) and the MCP server (in `local_mcp/mcp_server_activity.log`, and potentially to the console if you uncommented the stream handler in `server.py`).
 
+Useful links:
+1. https://wandb.ai/onlineinference/mcp/reports/The-Model-Context-Protocol-MCP-by-Anthropic-Origins-functionality-and-impact--VmlldzoxMTY5NDI4MQ
+2. https://github.com/modelcontextprotocol/python-sdk
