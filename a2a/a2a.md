@@ -60,3 +60,10 @@ A2A interactions follow a structured, four-stage lifecycle built on JSON-RPC 2.0
 - Completion: Once the task is finished, its state transitions to completed, and the final Artifact is made available to the client.
 
 By standardizing this entire lifecycle, the A2A protocol provides the robust and flexible foundation needed to move from a world of isolated AIs to a truly collaborative and interconnected digital ecosystem.
+
+## Additonal Resources
+1. https://google-a2a.github.io/A2A/latest/
+2. https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/
+3. https://github.com/google-a2a/A2A
+4. https://medium.com/google-cloud/getting-started-with-google-a2a-a-hands-on-tutorial-for-the-agent2agent-protocol-3d3b5e055127
+5. https://medium.com/@elisowski/what-every-ai-engineer-should-know-about-a2a-mcp-acp-8335a210a742
